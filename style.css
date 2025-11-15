@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nerko One", cursive;
+    background-color: #ffffff;
+}
+/*====Main-layout====*/
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  height: 100vh;
+}
+
+/*====sidebar-layout====*/
+
+.sidebar {
+  background-color: #f5f5f5;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 20px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu a {
+  display: flex;
+  align-content: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #8E9392;
+
+}
+
+.menu a.active {
+  background-color: #fff;
+  color: #184e30;
+  font-weight: 600;
+  border-left: 5px solid #184e30;
+}
+
+.menu-general{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.menu-general a{
+  color: #929795;
+}
+/*=== main ===*/
+
+.main{
+  padding: 25px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+}
+
+/*===main(header)===*/
+
+.header {
+ display: grid;
+ grid-template-columns: 1fr auto auto;
+ gap: 20px;
+ align-items: center;
+  background-color: #f5f5f5;
+  padding: 15px 20px;
+  border-radius: 20px;
+ 
+}
+
+.action {
+  display: flex;
+  gap: 20px;
+}
+
+.action-1 {
+  display: flex;
+  gap: 20px;
+}
+
+/*===logo blog===*/
+
+.search {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.logo-1 {
+    width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.logo-2 {
+    width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.logo-3 {
+    width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.logo-4 {
+  display: flex;
+  align-items: center;
+    width: 55px;
+  height: 30px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.btn{
+  height: 40px;
+  width: 120px;
+  background-color: #fff;
+  color: #184e30;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+
+.btn-secondry {
+  height: 40px;
+  width: 120px;
+  background-color: #fff;
+  color: #184e30;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+/*====dashboard main====*/
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 40px;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.dashboard-wrapper-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-action {
+  display: flex;
+  gap: 10px;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-auto-rows: minmax(250px,auto auto);
+}
+/*===card===*/
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.card-big {
+    background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.card-calendar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.monitor {
+  display: flex;
+ justify-content: space-between;
+ 
+}
+
+.h3{
+  display: flex;
+  justify-items: end;
+}
+.meeting {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.meet {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  background-color: #184e30;
+  color: #f5f8f6;
+  font-weight: 600;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+/*===card=hover====*/
+.card:hover {
+    background-color: #145438;
+  transition: all 0,1s ease-in-out;
+}
+
+.card-big:hover {
+    background-color: #145438;
+  transition: all 0,1s ease-in-out;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #184e30;
+  transition: all 0,1s ease-in-out;
+}
+
+.btn-secondry:hover{  color: #ffffff;
+  background-color: #184e30;
+  transition: all 0,1s ease-in-out;
+}
+
+.logo-1:hover{
+  color: #ffffff;
+  background-color: #184e30;
+  transition: all 0,1s ease-in-out;
+}
+
+.logo-2:hover{
+  color: #ffffff;
+  background-color: #184e30;
+  transition: all 0,1s ease-in-out;
+}
+
+/*=====card=nth=====*/
+
+.card:nth-child(5){
+  grid-column: span 2;
+}
+
+.card:nth-child(6){
+grid-row: span ;
+}
+
+
+.card:nth-child(7){
+grid-row: span 2;
+}
+
+
+.card:nth-child(11){
+grid-column-start: 4;
+}
