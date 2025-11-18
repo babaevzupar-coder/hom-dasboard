@@ -205,6 +205,12 @@ body {
   border-radius: 16px;
 }
 
+.card-1 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
 .card-big {
     background-color: #fff;
   padding: 20px;
@@ -224,15 +230,23 @@ body {
   
 }
 
+.card-titl{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
 .card-calendar{
   display: flex;
   justify-content: space-between;
 }
 
+
 .monitor {
   display: flex;
  justify-content: space-between;
- margin-top: 70px;
+ margin-top: 100px;
 }
 
 .h3{
@@ -243,6 +257,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
+  margin-top: 70px;
 }
 .meet {
   display: flex;
@@ -270,6 +285,10 @@ grid-row: span ;
 
 .card:nth-child(7){
 grid-row: span 2;
+}
+
+.card:nth-child(8){
+grid-column: span 2;
 }
 
 
