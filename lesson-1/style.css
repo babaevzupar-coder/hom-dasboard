@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+
+ header {
+	background-color: aqua;
+	padding: 20px;
+ }
+
+ .wrapper-head {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+ }
+
+ .logo-1 {
+	display: flex;
+	gap: 20px;
+ }
+
+ .head {
+	display: flex;
+	gap: 30px;
+ }
+
+ .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+ }
+
+ .content-card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: brown;
+	width: 240px;
+	height: 150px;
+	gap: 10px;
+ }
+

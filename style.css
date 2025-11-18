@@ -124,6 +124,7 @@ body {
   height: 30px;
   border-radius: 100px;
   object-fit: cover;
+  background-color: #fff;
 }
 
 .logo-4 {
@@ -146,8 +147,8 @@ body {
 .btn{
   height: 40px;
   width: 120px;
-  background-color: #fff;
-  color: #184e30;
+  background-color: #184e30;
+  color: #f8faf9;
   font-weight: 600;
   border-radius: 20px;
 }
@@ -231,7 +232,7 @@ body {
 .monitor {
   display: flex;
  justify-content: space-between;
- 
+ margin-top: 70px;
 }
 
 .h3{
@@ -255,39 +256,6 @@ body {
   gap: 10px;
 }
 
-/*===card=hover====*/
-.card:hover {
-    background-color: #145438;
-  transition: all 0,1s ease-in-out;
-}
-
-.card-big:hover {
-    background-color: #145438;
-  transition: all 0,1s ease-in-out;
-}
-
-.btn:hover {
-  color: #ffffff;
-  background-color: #184e30;
-  transition: all 0,1s ease-in-out;
-}
-
-.btn-secondry:hover{  color: #ffffff;
-  background-color: #184e30;
-  transition: all 0,1s ease-in-out;
-}
-
-.logo-1:hover{
-  color: #ffffff;
-  background-color: #184e30;
-  transition: all 0,1s ease-in-out;
-}
-
-.logo-2:hover{
-  color: #ffffff;
-  background-color: #184e30;
-  transition: all 0,1s ease-in-out;
-}
 
 /*=====card=nth=====*/
 
