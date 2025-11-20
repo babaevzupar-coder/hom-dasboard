@@ -63,6 +63,8 @@ body {
 .menu-general a{
   color: #929795;
 }
+
+
 /*=== main ===*/
 
 .main{
@@ -211,7 +213,7 @@ body {
 }
 
 .card-big {
-    background-color: #fff;
+    background-color: #184e30;
   padding: 20px;
   border-radius: 16px;
 }
@@ -220,19 +222,57 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: #fff;
 }
+
+ .wrapper-card p {
+  display: flex;
+  margin-top: 50px;
+}
+
+.wrapper-card h1 {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+ .wrapper-card-1 p {
+  display: flex;
+  margin-top: 60px;
+  color: #0f8304;
+}
+
+.wrapper-card-1 h1 {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+ .wrapper-card-2 p {
+  display: flex;
+  margin-top: 60px;
+  color: #0f8304;
+}
+
+.wrapper-card-2 h1 {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+
 
 .card-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
+
 
 .card-titl{
   display: flex;
   flex-direction: column;
-
+  
 }
 
 
@@ -245,7 +285,7 @@ body {
 .monitor {
   display: flex;
  justify-content: space-between;
- margin-top: 100px;
+ margin-top: 170px;
 }
 
 .h3{
@@ -270,7 +310,35 @@ body {
   gap: 10px;
 }
 
+.ended {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
 
+.ended p {
+  color: #0f8304;
+}
+
+.foter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #0f8304;
+}
+
+.img {
+  display: grid;
+  width: 370px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.baner {
+  display: grid;
+  grid-column-start: 4;
+}
 /*=====card=nth=====*/
 
 .card:nth-child(5){
