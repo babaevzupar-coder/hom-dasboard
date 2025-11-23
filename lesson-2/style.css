@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Nerko One", cursive;
+  font-family: "Inter", sans-serif;
     background-color: #ffffff;
 }
 /*====Main-layout====*/
@@ -131,10 +131,13 @@ body {
 .logo-4 {
   display: flex;
   align-items: center;
-    width: 55px;
+    width: 75px;
   height: 30px;
   border-radius: 100px;
   object-fit: cover;
+  background-color: #f5f8f6;
+  color: #184e30;
+ gap: 13px;
 }
 
 
@@ -266,14 +269,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 
 .card-titl{
   display: flex;
   flex-direction: column;
-  
+ 
 }
+
 
 
 .card-calendar{
