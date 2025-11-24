@@ -279,6 +279,26 @@ body {
  
 }
 
+.btn-color {
+  border-radius: 5px;
+  color: #184e30;
+  border-color: #184e30;
+  width: 78px;
+}
+
+.btn-e {
+  border-radius: 5px;
+  color: #a7aa08;
+  border-color: #e9ec0c;
+  width: 80px;
+}
+
+.btn-p {
+  border-radius: 5px;
+  color: #f34905;
+  border-color: #f34905;
+  width: 70px;
+}
 
 
 .card-calendar{
