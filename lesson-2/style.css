@@ -241,7 +241,7 @@ body {
 
  .wrapper-card-1 p {
   display: flex;
-  margin-top: 60px;
+  margin-top: 80px;
   color: #0f8304;
 }
 
@@ -253,7 +253,7 @@ body {
 
  .wrapper-card-2 p {
   display: flex;
-  margin-top: 60px;
+  margin-top: 80px;
   color: #0f8304;
 }
 
@@ -276,7 +276,7 @@ body {
 .card-titl{
   display: flex;
   flex-direction: column;
- 
+  
 }
 
 .btn-color {
@@ -313,10 +313,14 @@ body {
  margin-top: 170px;
 }
 
-.h3{
-  display: flex;
-  justify-items: end;
+.card-meta {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 30px;
 }
+
+
 .meeting {
   display: flex;
   justify-content: center;
@@ -349,7 +353,7 @@ body {
 .foter {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 30px;
   color: #0f8304;
 }
 
