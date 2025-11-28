@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(188, 188, 200);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-header-center {
+  display: block;
+}
+
+.icon-menu {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .links-header-center {
+    display: none;
+  }
+  .icon-menu {
+    display: block;
+  }
+}
