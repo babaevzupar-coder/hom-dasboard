@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: aqua;
+}
+
+
 header {
   background-color: rgb(188, 188, 200);
   width: 100%;
@@ -28,3 +33,48 @@ header {
     display: block;
   }
 }
+
+.main {
+	display: grid;
+	
+	margin: 10px;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: repeat(5, 250px);
+	grid-template-rows: repeat(3, 150px);
+	gap: 10px 10px;
+	justify-content: center;
+  align-self: center;
+}
+
+.card {
+	display: grid;
+	background-color: rgb(252, 249, 251);
+  border-radius: 15px;
+  -webkit-box-shadow: -11px -2px 30px -1px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -11px -2px 30px -1px rgba(34, 60, 80, 0.2);
+box-shadow: -11px -2px 30px -1px rgba(34, 60, 80, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    grid-template-columns: repeat(3,250px);
+  }
+
+}
+  
+@media (max-width: 500px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
