@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  grid-template-rows: 70px 1fr;
+  grid-template-areas: "sidebar header" "sidebar main";
+  min-height: 100vh;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #000;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.header {
+  display: block;
+  grid-area: header;
+  background-color: rgb(46, 68, 88);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.dashboard-wrapper-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  grid-area: main;
+  padding: 10px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 250px);
+  gap: 20px;
+}
+
+.stats-card {
+  background-color: #000;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.7s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ----- Planshet -----*/
+@media (max-width: 992px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard {
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+/* ----- Mobile -----*/
+
+@media (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "header" "main";
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .action {
+    display: flex;
+    gap: 20px;
+  }
+
+  .action button {
+    width: 70px;
+    font-size: 10px;
+  }
+
+  .dash-title p {
+    font-size: 12px;
+  }
+}
+
+/* ========= BTN Animations ======== */
+
+.btn {
+  animation: bounce 1.3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ========= 3D Animations ======== */
+
+.box-3d {
+  width: 150px;
+  height: 150px;
+  margin: 40px auto;
+  background: linear-gradient(45deg, #30cfd0, #330867);
+  animation: Box-3d 2s linear infinite;
+}
+
+@keyframes Box-3d {
+  0% {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
