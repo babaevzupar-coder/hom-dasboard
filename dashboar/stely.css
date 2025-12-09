@@ -171,6 +171,34 @@ body {
   color: aliceblue;
   padding: 20px;
   border-radius: 10px;
+  animation: fadeUp 2s ease-in-out forwards;
+}
+
+.dashboard {
+  animation: sss 1s ease-in-out forwards;
+}
+
+@keyframes sss {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ----- Planshet -----*/
@@ -201,3 +229,24 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+. {
+  width: 150px;
+  height: 150px;
+  margin: 40px auto;
+  background: linear-gradient(90deg, #0C0C0C, #0F971C);
+  animation: banner 2s linear infinite;
+}
+
+@keyframes banner {
+  0% {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+
+
