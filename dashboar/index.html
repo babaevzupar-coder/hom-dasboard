@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./stely.css">
+	<script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
 	<title>Document</title>
 </head>
 
@@ -12,30 +13,43 @@
 
 	<div class="dashboard">
 		<aside class="sidebar">
-			<h2>Donezo</h2>
-			<p>Menu</p>
-			<div class="menu">
-				<ul class="link">
-					<li> <a href="#">Home</a></li>
-					<li><a href="#">Stats</a></li>
-					<li><a href="#">Users</a></li>
-					<li><a href="#">Users</a></li>
-				</ul>
-			</div>
+			<h2 class="logo">Donezo</h2>
+			<nav class="menu">Menu
+				<a class="active">Dashboard</a>
+				<a href="#">Task</a>
+				<a href="#">Calendar</a>
+				<a href="#">Analytics</a>
+				<a href="#">Team</a>
+			</nav>
+			<nav class="menu-general">General
+				<a href="#">Seting</a></li>
+				<a href="#">Help</a></li>
+				<a href="#">Logout</a></li>
+			</nav>
 		</aside>
-
+		<header class="header">
+			<input type="text" placeholder="Search task" class="search">
+			<div class="action">
+				<button class="logo-btn"><iconify-icon icon="ep:message" width="25" height="25"></iconify-icon></button>
+				<button class="logo-btn-2"><iconify-icon icon="charm:bell" width="25"
+						height="25"></iconify-icon></button>
+			</div>
+			<div class="profile">
+				<iconify-icon icon="emojione-v1:cat-face-with-wry-smile" width="35" height="35"></iconify-icon>
+				<div>
+					<p>Entrance</p>
+					<small>qwerty@gmail.com</small>
+				</div>
+			</div>
+		</header>
 		<main class="main">
-			<header class="header">
-				<input type="text" placeholder="search task">
-				<button>Menu</button>
-			</header>
 			<section class="dashboard-main">
 				<div class="dashboard-wrapper-head">
 					<div class="dash-title">
 						<h2>Dashboard</h2>
 						<P>Lorem ipsum dolor sit amet consectetur</P>
 					</div>
-					<div class="action">
+					<div class="action-1">
 						<button class="btn">Add Project</button>
 						<button class="btn-2">Import Data</button>
 					</div>
@@ -46,14 +60,14 @@
 					<div class="stats-card">Sales: 2000</div>
 					<div class="stats-card">Sales: 2000</div>
 					<div class="stats-card">Sales: 2000</div>
+					<div class="stats-card">Sales: 2000</div>
+					<div class="stats-card">Sales: 2000</div>
+					<div class="stats-card">Sales: 2000</div>
+					<div class="stats-card">Sales: 2000</div>
 				</div>
+			</section>
+		</main>
 	</div>
-
-	</section>
-	</main>
-	</div>
-
-
 
 
 </body>
