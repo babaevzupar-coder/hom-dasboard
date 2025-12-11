@@ -142,10 +142,6 @@ body {
   font-weight: 600;
   border-radius: 20px;
 }
-.card {
-	display: flex;
-	justify-content: space-between;
-}
 
 .main {
   grid-area: main;
@@ -167,8 +163,8 @@ body {
 }
 
 .stats-card {
-  background-color: #000;
-  color: aliceblue;
+  background-color: #FFFFFF;
+  color: rgb(0, 10, 19);
   padding: 20px;
   border-radius: 10px;
   animation: fadeUp 2s ease-in-out forwards;
