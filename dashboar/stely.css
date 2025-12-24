@@ -158,7 +158,7 @@ body {
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5,250px);
+  grid-template-rows: repeat(4,250px);
   gap: 20px;
 }
 
@@ -183,7 +183,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  gap: 60px;
+  gap: 50px;
 }
 
 h1 {
@@ -196,6 +196,12 @@ h1 {
   border-radius: 100px;
   object-fit: cover;
   background-color: #fff;
+}
+
+.monitor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
 }
 
 .dashboard {
@@ -287,6 +293,15 @@ h1 {
   100% {
     transform: rotateY(360deg);
   }
+}
+
+.stats-card:nth-child(5){
+  grid-column: span 2;
+}
+
+
+.stats-card:nth-child(7){
+  grid-row: span 2;
 }
 
 
