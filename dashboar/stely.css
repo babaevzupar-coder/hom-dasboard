@@ -126,12 +126,16 @@ body {
 }
 
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
-  width: 120px;
+  width: 125px;
   background-color: #184e30;
   color: #f8faf9;
   font-weight: 600;
   border-radius: 20px;
+  gap: 5px;
 }
 
 .btn-2 {
@@ -211,6 +215,19 @@ h1 {
   background-color: #fff;
 }
 
+.arow-2 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #3D554D;
+  color: #173D2C;
+  background-color: #fff;
+}
+
 .monitor {
   display: flex;
   justify-content: space-between;
@@ -221,6 +238,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
   color: #173D2C;
 }
@@ -242,7 +260,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 40px;
-  width: 120px;
+  width: 145px;
   background-color: #184e30;
   color: #f5f8f6;
   font-weight: 600;
@@ -268,6 +286,95 @@ h1 {
   height: 30px;
   border-radius: 100%;
   object-fit: cover;
+}
+
+.avatar-1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.calendar-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.content-card-1{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.calendar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.collaboration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-color {
+    border-radius: 5px;
+  color: #03883f;
+  border-color: #1aa558;
+  width: 78px;
+  border-color: #184e30;
+}
+
+.btn-e{
+    border-radius: 5px;
+  color: #a7aa08;
+  border-color: #e9ec0c;
+  width: 80px;
+}
+
+.btn-p {
+  border-radius: 5px;
+  color: #f34905;
+  border-color: #f34905;
+  width: 70px;
+}
+
+.project {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.project h5{
+  color: #0F971C;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: #0F971C;
+}
+
+.pi{
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #184e30;
 }
 .dashboard {
   animation: sss 1s ease-in-out forwards;
