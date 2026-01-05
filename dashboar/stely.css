@@ -454,10 +454,10 @@ h1 {
   height: 150px;
   margin: 40px auto;
   background: linear-gradient(90deg, #0C0C0C, #0F971C);
-  animation: banner 2s linear infinite;
+  animation: bounce 1.3s infinite;
 }
 
-@keyframes banner {
+@keyframes bounce {
   0% {
     transform: rotateY(0deg);
     opacity: 1;
